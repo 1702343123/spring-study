@@ -1,4 +1,4 @@
-package com.spring.quickstart.annotation;
+package com.spring.IoC.quickstart.annotation;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

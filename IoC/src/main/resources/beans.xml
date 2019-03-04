@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--定义bean-->
+    <bean id="messageServiceImpl" class="com.spring.IoC.MessageServiceImpl">
+        <constructor-arg name="username" value="WangJie"/>
+        <constructor-arg name="age" value="21"/>
+    </bean>
+    <bean id="messagePrinter" class="com.spring.IoC.MessagePrinter">
+        <constructor-arg name="service" ref="messageServiceImpl"/>
+    </bean>
+    <bean id="car1" class="com.spring.IoC.Car">
+        <constructor-arg name="brand" value="奔驰"/>
+        <constructor-arg name="color" value="白色"/>
+        <constructor-arg name="parameter" value="6.8T"/>
+    </bean>
+    <bean id="car2" class="com.spring.IoC.Car">
+        <constructor-arg name="brand" value="宝马"/>
+        <constructor-arg name="color" value="黑色"/>
+        <constructor-arg name="parameter" value="5.0T"/>
+    </bean>
+    <bean id="car3" class="com.spring.IoC.Car">
+        <constructor-arg name="brand" value="劳斯莱斯"/>
+        <constructor-arg name="color" value="蓝色"/>
+        <constructor-arg name="parameter" value="6.8T"/>
+    </bean>
+    <bean id="boss1" class="com.spring.IoC.Boss">
+        <constructor-arg name="name" value="马化腾"/>
+        <constructor-arg name="company" value="腾讯"/>
+        <constructor-arg name="car" ref="car1"/>
+        <constructor-arg name="hobby">
+            <list>
+                <value>游戏</value>
+                <value>高尔夫</value>
+            </list>
+        </constructor-arg>
+    </bean>
+    <bean id="boss2" class="com.spring.IoC.Boss">
+        <constructor-arg name="name" value="马云"/>
+        <constructor-arg name="company" value="阿里巴巴"/>
+        <constructor-arg name="car" ref="car2"/>
+        <constructor-arg name="hobby">
+            <list>
+                <value>唱歌</value>
+                <value>演讲</value>
+            </list>
+        </constructor-arg>
+    </bean>
+    <bean id="boss3" class="com.spring.IoC.Boss">
+        <constructor-arg name="name" value="雷军"/>
+        <constructor-arg name="company" value="小米"/>
+        <constructor-arg name="car" ref="car3"/>
+        <constructor-arg name="hobby">
+            <list>
+                <value>写作</value>
+                <value>阅读</value>
+            </list>
+        </constructor-arg>
+    </bean>
+    <bean id="meeting" class="com.spring.IoC.Meeting">
+        <constructor-arg name="theme" value="2019互联网分会"/>
+        <constructor-arg name="bosses">
+            <list>
+                <ref bean="boss1"/>
+                <ref bean="boss2"/>
+                <ref bean="boss3"/>
+            </list>
+        </constructor-arg>
+
+
+    </bean>
+
+    <!--配置Max-->
+    <bean id="max" class="com.spring.IoC.Max">
+        <constructor-arg name="a" value="5"></constructor-arg>
+        <constructor-arg name="b" value="3"></constructor-arg>
+    </bean>
+    <!--配置一个User的bean-->
+    <bean id="user" class="com.spring.IoC.User">
+        <constructor-arg name="account" value="admin"/>
+        <constructor-arg name="password" value="111"/>
+    </bean>
+    <bean id="userLogin" class="com.spring.IoC.UserLogin">
+        <property name="user" ref="user"/>
+    </bean>
+</beans>

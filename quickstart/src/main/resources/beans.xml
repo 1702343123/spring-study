@@ -3,12 +3,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--配置一个Phone类的bean-->
- <bean id="student" class="com.spring.quickstart.annotation.Student">
+ <bean id="student" class="com.spring.IoC.quickstart.annotation.Student">
 <!--<property name="name" value="tom"/>-->
 <!--<property name="age"  value="15"/>-->
-<!--<constructor-arg name="age" value="21"/>-->
+<!--<constructor-arg name="age" value="21"/>构造注入标记-->
 <!--<constructor-arg name="name" value="tom"/>-->
-<property name="name" value="AC"/>
+<property name="name" value="AC"/><!--setter注入标记-->
 <property name="age" value="19"/>
 <property name="phone" ref="phone"/>
  </bean>
