@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42fbc3e6-4cc4-4b47-a43a-c7e9adbc6480" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/Car.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IoC/IoC.iml" afterPath="$PROJECT_DIR$/IoC/IoC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IoC/pom.xml" afterPath="$PROJECT_DIR$/IoC/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quickstart/src/main/resources/beans.xml" afterPath="$PROJECT_DIR$/quickstart/src/main/resources/beans.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/App.java" afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/App.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/IoC/src/test/java/com/spring/AppTest.java" afterPath="$PROJECT_DIR$/IoC/src/test/java/com/spring/IoC/AppTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/App.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/App.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/annotation/Phone.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/annotation/Phone.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/annotation/PhoneApp.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/annotation/PhoneApp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/annotation/Student.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/annotation/Student.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/annotation/StudentApp.java" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/annotation/StudentApp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickstart/src/test/java/com/spring/quickstart/AppTest.java" afterPath="$PROJECT_DIR$/quickstart/src/test/java/com/spring/IoC/quickstart/AppTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/quickstart/target/" />
     <ignored path="$PROJECT_DIR$/IoC/target/" />
@@ -36,7 +24,38 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IoC/src/main/resources/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IoC/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="670">
+              <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/MaxApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -211,6 +230,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -816,7 +839,7 @@
       <workItem from="1551681784624" duration="649000" />
       <workItem from="1551683068507" duration="397000" />
       <workItem from="1551685221463" duration="7769000" />
-      <workItem from="1551693620149" duration="241000" />
+      <workItem from="1551693620149" duration="1427000" />
     </task>
     <servers />
   </component>
@@ -829,10 +852,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24406000" />
+    <option name="totallyTimeSpent" value="25592000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -849,7 +873,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685325" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685325" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1150,14 +1174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/MaxApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quickstart/src/main/java/com/spring/IoC/quickstart/annotation/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1247,9 +1263,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/MaxApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IoC/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
+        <state relative-caret-position="670">
           <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
           <folding />
         </state>
@@ -1257,8 +1281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IoC/src/main/resources/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="84" column="35" lean-forward="false" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+        <state relative-caret-position="247">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding />
         </state>
       </provider>
