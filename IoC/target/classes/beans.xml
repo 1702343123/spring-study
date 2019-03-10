@@ -73,8 +73,8 @@
 
     <!--配置Max-->
     <bean id="max" class="com.spring.IoC.Max">
-        <constructor-arg name="a" value="5"></constructor-arg>
-        <constructor-arg name="b" value="3"></constructor-arg>
+        <constructor-arg name="a" value="5"/>
+        <constructor-arg name="b" value="3"/>
     </bean>
     <!--配置一个User的bean-->
     <bean id="user" class="com.spring.IoC.User">

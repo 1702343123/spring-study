@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+<!--定义bean-->
+    <!--配置Hello的bean-->
+    <bean id="hello" class="com.spring.Aop.HelloImpl"/>
+    <!--配置MyBeforeAdvice前置增强的bean-->
+    <bean id="myBeforeAdvice" class="com.spring.Aop.MyBeforeAdvice"/>
+    <!--配置aop-->
+    <aop:config>
+        <aop:aspect id="before" ref="myBeforeAdvice">
+            <aop:pointcut id="myPointCut" expression="execution(* com.spring.Aop.*.*(..))"/>
+            <aop:before method="beforeMethod" pointcut-ref="myPointCut"/>
+        </aop:aspect>
+    </aop:config>
+    <!--<bean id="userDAO" class="com.spring.Aop.UserDAOImpl"/>-->
+    <!--<bean id="beforeAdvice" class="com.spring.Aop.BeforeAdvice"/>-->
+    <!--<aop:config>-->
+        <!--<aop:aspect id="before1" ref="beforeAdvice">-->
+
+            <!--<aop:pointcut id="myPointCut1" expression="execution(* com.spring.Aop.*.*(..))"/>-->
+            <!--<aop:before method="beforeMethods" pointcut-ref="myPointCut1"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
+</beans>
