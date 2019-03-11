@@ -4,9 +4,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 <!--定义bean-->
     <!--配置Hello的bean-->
-    <bean id="hello" class="com.spring.Aop.HelloImpl"/>
+    <bean id="hello" class="com.spring.orm.Aop.HelloImpl"/>
     <!--配置MyBeforeAdvice前置增强的bean-->
-    <bean id="myBeforeAdvice" class="com.spring.Aop.MyBeforeAdvice"/>
+    <bean id="myBeforeAdvice" class="com.spring.orm.Aop.MyBeforeAdvice"/>
     <!--配置aop-->
     <!--<aop:config>-->
         <!--<aop:aspect id="before" ref="myBeforeAdvice">-->
@@ -14,8 +14,8 @@
             <!--<aop:before method="beforeMethod" pointcut-ref="myPointCut"/>-->
         <!--</aop:aspect>-->
     <!--</aop:config>-->
-    <!--<bean id="userDAO" class="com.spring.Aop.UserDAOImpl"/>-->
-    <!--<bean id="beforeAdvice" class="com.spring.Aop.BeforeAdvice"/>-->
+    <!--<bean id="userDAO" claUserDAOImplImpl"/>-->
+    <!--<bean id="beforeAdvice" claBeforeAdvicevice"/>-->
     <!--<aop:config>-->
         <!--<aop:aspect id="before1" ref="beforeAdvice">-->
 
@@ -25,9 +25,9 @@
     <!--</aop:config>-->
 
     <!--<aop:aspectj-autoproxy/>-->
-    <!--<bean id ="fighter" class="com.spring.Aop.Fighter"/>-->
-    <!--<bean id="tiger" class="com.spring.Aop.Tiger"/>-->
+    <!--<bean id ="fighter" claFighterhter"/>-->
+    <!--<bean id="tiger" claTigeriger"/>-->
     <aop:aspectj-autoproxy/>
-    <bean id="imageCopy" class="com.spring.Aop.ImageCopy"/>
-    <bean id="imageHandler" class="com.spring.Aop.ImageHandler"/>
+    <bean id="imageCopy" class="com.spring.orm.Aop.ImageCopy"/>
+    <bean id="imageHandler" class="com.spring.orm.Aop.ImageHandler"/>
 </beans>

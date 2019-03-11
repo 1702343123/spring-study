@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Aop/Aop.iml" filepath="$PROJECT_DIR$/Aop/Aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/IoC/IoC.iml" filepath="$PROJECT_DIR$/IoC/IoC.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickstart/quickstart.iml" filepath="$PROJECT_DIR$/quickstart/quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rom/rom.iml" filepath="$PROJECT_DIR$/rom/rom.iml" />
     </modules>
   </component>
 </project>
