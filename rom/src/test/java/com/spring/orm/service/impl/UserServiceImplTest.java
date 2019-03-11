@@ -24,7 +24,7 @@ public class UserServiceImplTest {
     public void insertUser() throws Exception {
         User user=new User();
         user.setAccount("test");
-        user.setPassword("88888888");
+        user.setPassword("888888");
         user.setCredits(999);
         int n=userService.insertUser(user);
         assertEquals(1,n);
@@ -32,15 +32,15 @@ public class UserServiceImplTest {
 
     @Test
     public void deleteUser() throws Exception {
-        int n=userService.deleteUser(2);
+        int n=userService.deleteUser(4);
         assertEquals(1,n);
     }
 
     @Test
     public void updateUser() throws Exception {
-        User user=userService.getUser(3);
-        user.setPassword("000000");
-        user.setCredits(11111);
+        User user=userService.getUser(1);
+        user.setPassword("00000");
+        user.setCredits(99999);
         int n=userService.updateUser(user);
         assertEquals(1,n);
     }
@@ -53,7 +53,7 @@ public class UserServiceImplTest {
 
     @Test
     public void getUser() throws Exception {
-        User user=userService.getUser(1);
+        User user=userService.getUser(5);
         System.out.println(user);
     }
 

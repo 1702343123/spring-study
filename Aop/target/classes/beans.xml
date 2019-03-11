@@ -14,8 +14,8 @@
             <!--<aop:before method="beforeMethod" pointcut-ref="myPointCut"/>-->
         <!--</aop:aspect>-->
     <!--</aop:config>-->
-    <!--<bean id="userDAO" class="com.spring.Aop.UserDAOImpl"/>-->
-    <!--<bean id="beforeAdvice" class="com.spring.Aop.BeforeAdvice"/>-->
+    <!--<bean id="userDAO" claUserDAOImplImpl"/>-->
+    <!--<bean id="beforeAdvice" claBeforeAdvicevice"/>-->
     <!--<aop:config>-->
         <!--<aop:aspect id="before1" ref="beforeAdvice">-->
 
@@ -25,8 +25,8 @@
     <!--</aop:config>-->
 
     <!--<aop:aspectj-autoproxy/>-->
-    <!--<bean id ="fighter" class="com.spring.Aop.Fighter"/>-->
-    <!--<bean id="tiger" class="com.spring.Aop.Tiger"/>-->
+    <!--<bean id ="fighter" claFighterhter"/>-->
+    <!--<bean id="tiger" claTigeriger"/>-->
     <aop:aspectj-autoproxy/>
     <bean id="imageCopy" class="com.spring.Aop.ImageCopy"/>
     <bean id="imageHandler" class="com.spring.Aop.ImageHandler"/>

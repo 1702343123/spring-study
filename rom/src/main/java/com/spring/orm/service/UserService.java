@@ -42,5 +42,4 @@ public interface UserService {
      * @return
      */
     User getUser(long id);
-
 }

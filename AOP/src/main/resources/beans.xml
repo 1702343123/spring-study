@@ -4,9 +4,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 <!--定义bean-->
     <!--配置Hello的bean-->
-    <bean id="hello" class="com.spring.orm.Aop.HelloImpl"/>
+    <bean id="hello" class="com.spring.Aop.HelloImpl"/>
     <!--配置MyBeforeAdvice前置增强的bean-->
-    <bean id="myBeforeAdvice" class="com.spring.orm.Aop.MyBeforeAdvice"/>
+    <bean id="myBeforeAdvice" class="com.spring.Aop.MyBeforeAdvice"/>
     <!--配置aop-->
     <!--<aop:config>-->
         <!--<aop:aspect id="before" ref="myBeforeAdvice">-->
@@ -28,6 +28,6 @@
     <!--<bean id ="fighter" claFighterhter"/>-->
     <!--<bean id="tiger" claTigeriger"/>-->
     <aop:aspectj-autoproxy/>
-    <bean id="imageCopy" class="com.spring.orm.Aop.ImageCopy"/>
-    <bean id="imageHandler" class="com.spring.orm.Aop.ImageHandler"/>
+    <bean id="imageCopy" class="com.spring.Aop.ImageCopy"/>
+    <bean id="imageHandler" class="com.spring.Aop.ImageHandler"/>
 </beans>
