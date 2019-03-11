@@ -8,12 +8,12 @@
     <!--配置MyBeforeAdvice前置增强的bean-->
     <bean id="myBeforeAdvice" class="com.spring.Aop.MyBeforeAdvice"/>
     <!--配置aop-->
-    <aop:config>
-        <aop:aspect id="before" ref="myBeforeAdvice">
-            <aop:pointcut id="myPointCut" expression="execution(* com.spring.Aop.*.*(..))"/>
-            <aop:before method="beforeMethod" pointcut-ref="myPointCut"/>
-        </aop:aspect>
-    </aop:config>
+    <!--<aop:config>-->
+        <!--<aop:aspect id="before" ref="myBeforeAdvice">-->
+            <!--<aop:pointcut id="myPointCut" expression="execution(* com.spring.Aop.*.*(..))"/>-->
+            <!--<aop:before method="beforeMethod" pointcut-ref="myPointCut"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
     <!--<bean id="userDAO" class="com.spring.Aop.UserDAOImpl"/>-->
     <!--<bean id="beforeAdvice" class="com.spring.Aop.BeforeAdvice"/>-->
     <!--<aop:config>-->
@@ -24,4 +24,10 @@
         <!--</aop:aspect>-->
     <!--</aop:config>-->
 
+    <!--<aop:aspectj-autoproxy/>-->
+    <!--<bean id ="fighter" class="com.spring.Aop.Fighter"/>-->
+    <!--<bean id="tiger" class="com.spring.Aop.Tiger"/>-->
+    <aop:aspectj-autoproxy/>
+    <bean id="imageCopy" class="com.spring.Aop.ImageCopy"/>
+    <bean id="imageHandler" class="com.spring.Aop.ImageHandler"/>
 </beans>

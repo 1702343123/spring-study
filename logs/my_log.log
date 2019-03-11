@@ -562,3 +562,195 @@
 2019-03-10 19:45:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
 2019-03-10 19:45:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
 2019-03-10 19:45:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 08:25:00 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-11 08:25:01 DEBUG XmlBeanDefinitionReader:395 - Loaded 11 bean definitions from class path resource [beans.xml]
+2019-03-11 08:25:01 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 08:25:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 08:25:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-11 08:25:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-11 08:25:03 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.Fighter.foundBefore()
+2019-03-11 08:25:03 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.Fighter.foundAfter()
+2019-03-11 08:25:03  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hello' defined in class path resource [beans.xml]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut foundTiger
+2019-03-11 08:26:50 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-11 08:26:50 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [beans.xml]
+2019-03-11 08:26:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 08:26:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 08:26:51 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.Fighter.foundBefore()
+2019-03-11 08:26:51 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.Fighter.foundAfter()
+2019-03-11 08:26:51 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 08:26:51 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'fighter'
+2019-03-11 08:26:51 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tiger'
+2019-03-11 09:45:00 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 09:45:02 DEBUG XmlBeanDefinitionReader:395 - Loaded 13 bean definitions from class path resource [beans.xml]
+2019-03-11 09:45:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 09:45:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 09:45:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-11 09:45:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-11 09:45:04 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.Fighter.foundBefore()
+2019-03-11 09:45:04 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.Fighter.foundAfter()
+2019-03-11 09:45:04 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage()
+2019-03-11 09:45:04 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 09:45:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 09:45:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDAO'
+2019-03-11 09:45:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-11 09:45:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'fighter'
+2019-03-11 09:45:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tiger'
+2019-03-11 09:45:05 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 09:45:05  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'imageCopy' defined in class path resource [beans.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-11 09:49:13 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 09:49:13 DEBUG XmlBeanDefinitionReader:395 - Loaded 13 bean definitions from class path resource [beans.xml]
+2019-03-11 09:49:13 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 09:49:13 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 09:49:13 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-11 09:49:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-11 09:49:14 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.Fighter.foundBefore()
+2019-03-11 09:49:14 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.Fighter.foundAfter()
+2019-03-11 09:49:14 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage()
+2019-03-11 09:49:14 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 09:49:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 09:49:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDAO'
+2019-03-11 09:49:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-11 09:49:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'fighter'
+2019-03-11 09:49:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tiger'
+2019-03-11 09:49:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 09:49:14  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'imageCopy' defined in class path resource [beans.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-11 09:51:26 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 09:51:26 DEBUG XmlBeanDefinitionReader:395 - Loaded 13 bean definitions from class path resource [beans.xml]
+2019-03-11 09:51:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 09:51:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 09:51:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-11 09:51:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-11 09:51:27 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.Fighter.foundBefore()
+2019-03-11 09:51:27 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.Fighter.foundAfter()
+2019-03-11 09:51:27 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage()
+2019-03-11 09:51:27 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 09:51:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 09:51:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDAO'
+2019-03-11 09:51:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'beforeAdvice'
+2019-03-11 09:51:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'fighter'
+2019-03-11 09:51:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tiger'
+2019-03-11 09:51:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 09:51:27  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'imageCopy' defined in class path resource [beans.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-11 09:52:49 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 09:52:50 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [beans.xml]
+2019-03-11 09:52:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 09:52:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 09:52:50 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage()
+2019-03-11 09:52:50 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 09:52:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 09:52:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 09:52:50  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'imageCopy' defined in class path resource [beans.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-11 09:54:08 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 09:54:09 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [beans.xml]
+2019-03-11 09:54:09 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 09:54:09 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 09:54:09 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage()
+2019-03-11 09:54:09 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 09:54:09 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 09:54:09 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 09:54:09  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'imageCopy' defined in class path resource [beans.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-11 09:59:34 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 09:59:34 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [beans.xml]
+2019-03-11 09:59:35 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 09:59:35 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 09:59:35 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage()
+2019-03-11 09:59:35 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 09:59:35 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 09:59:35 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 09:59:35  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'imageCopy' defined in class path resource [beans.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-11 10:02:44 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 10:02:44 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [beans.xml]
+2019-03-11 10:02:44 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:02:44 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 10:02:44 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage()
+2019-03-11 10:02:44 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 10:02:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 10:02:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:02:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:02:45  INFO ImageHandler:25 - 开始给图片添加水印
+2019-03-11 10:02:55  INFO ImageCopy:14 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:02:55  INFO ImageHandler:34 - 开始将图片转成黑白
+2019-03-11 10:09:44 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 10:09:44 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [beans.xml]
+2019-03-11 10:09:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:09:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 10:09:45 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage()
+2019-03-11 10:09:45 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 10:09:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 10:09:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:09:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:09:45  INFO ImageHandler:25 - 开始给图片添加水印
+2019-03-11 10:09:46  INFO ImageCopy:14 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:09:46  INFO ImageHandler:34 - 开始将图片转成黑白
+2019-03-11 10:13:28 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 10:13:29 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [beans.xml]
+2019-03-11 10:13:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:13:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 10:13:29 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage()
+2019-03-11 10:13:29 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 10:13:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 10:13:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:13:30 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:13:30  INFO ImageHandler:25 - 开始给图片添加水印
+2019-03-11 10:13:30  INFO ImageCopy:14 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:13:30  INFO ImageHandler:34 - 开始将图片转成黑白
+2019-03-11 10:14:14 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 10:14:15 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [beans.xml]
+2019-03-11 10:14:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:14:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 10:14:15 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage()
+2019-03-11 10:14:15 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 10:14:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 10:14:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:14:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:14:15  INFO ImageHandler:25 - 开始给图片添加水印
+2019-03-11 10:14:16  INFO ImageCopy:14 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:14:16  INFO ImageHandler:34 - 开始将图片转成黑白
+2019-03-11 10:15:29 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 10:15:30 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [beans.xml]
+2019-03-11 10:15:30 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:15:30 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 10:15:30 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage()
+2019-03-11 10:15:30 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 10:15:30 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 10:15:30 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:15:30 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:15:30  INFO ImageHandler:25 - 开始给图片添加水印
+2019-03-11 10:15:31  INFO ImageCopy:14 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:15:31  INFO ImageHandler:34 - 开始将图片转成黑白
+2019-03-11 10:28:25 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 10:28:25 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [beans.xml]
+2019-03-11 10:28:25 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:28:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 10:28:26 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage() throws java.io.IOException
+2019-03-11 10:28:26 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 10:28:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 10:28:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:28:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:28:26  INFO ImageHandler:30 - 开始给图片添加水印
+2019-03-11 10:28:28  INFO ImageCopy:14 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:28:28  INFO ImageHandler:45 - 开始将图片转成黑白
+2019-03-11 10:30:02 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 10:30:03 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [beans.xml]
+2019-03-11 10:30:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:30:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 10:30:03 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage() throws java.io.IOException
+2019-03-11 10:30:03 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 10:30:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 10:30:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:30:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:30:03  INFO ImageHandler:30 - 开始给图片添加水印
+2019-03-11 10:30:06  INFO ImageCopy:14 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:30:06  INFO ImageHandler:45 - 开始将图片转成黑白
+2019-03-11 10:34:43 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-11 10:34:45 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [beans.xml]
+2019-03-11 10:34:46 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-11 10:34:46 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-11 10:34:47 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.pressTextOnImage() throws java.io.IOException
+2019-03-11 10:34:47 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Aop.ImageHandler.grayImage()
+2019-03-11 10:34:48 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-11 10:34:48 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageCopy'
+2019-03-11 10:34:48 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'imageHandler'
+2019-03-11 10:34:49  INFO ImageHandler:30 - 开始给图片添加水印
+2019-03-11 10:34:54  INFO ImageCopy:14 - 开始将图片从D盘复制到E盘。。。
+2019-03-11 10:34:54  INFO ImageHandler:45 - 开始将图片转成黑白
